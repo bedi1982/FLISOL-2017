@@ -12,6 +12,7 @@ Don't forget to create a Database named Teste if you want to use the save featur
 
 On mysql:
 
+```
 CREATE DATABASE Teste;
 use Teste;
 
@@ -24,3 +25,4 @@ CREATE TABLE `Clientes` (
   `cidade` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`cliente_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
